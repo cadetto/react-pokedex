@@ -1,0 +1,128 @@
+ 
+ 
+.pokedexContainer{
+  display:block;
+  margin:auto;
+  color:#fff;
+  background: linear-gradient(to bottom right,#024,#402);
+}
+
+ .pokedex{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .pokemonSingle{
+   padding: 20px;
+   margin: 20px;
+   border:1px solid rgb(230, 230, 230);
+   transition: all 0.3s ease;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+   background:none;
+   color:#fff;
+   border: 1px solid #ffdd56;
+   border-radius:5px;
+   font-size: 1.2em;
+ }
+
+ .pokemonSingle:hover{
+  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+ }
+
+ .pokemonSprite{
+   width: 120px;
+ }
+
+ .pokemonDetail{
+   display:flex;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100%;
+ }
+
+ .pokeBigSprite{
+   width: 300px;
+ }
+
+
+ .leftSide{
+   margin:30px;
+   border-radius:5px;
+   border:1px solid rgb(207, 207, 207);
+   width: 30%;
+   display: flex;
+   align-items:center;
+   flex-direction: column; 
+ }
+
+.pokemonName{
+  background:rgb(207, 207, 207);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.3em;
+  font-weight: bold;
+}
+
+.pokemonBasicInfo{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size:1.1em;
+}
+
+.pokemonTypesContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pokemonType{
+  margin:10px;
+}
+
+ .detailedInfo{
+   width: 50%;
+ }
+ 
+ .rightSide{
+  width: 70%;
+  margin:30px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+ }
+
+.pokemonInfo{
+  width: 100%;
+  border:1px solid rgb(207, 207, 207);
+  height: 300px;
+}
+
+.pokemonSprites{
+  margin-top:30px;
+  border:1px solid rgb(207, 207, 207);
+}
+
+.pokemonSprites img{
+  width: 25%;
+}
+
+.detailedInfo{
+  font-size:1.3em;
+  padding:20px;
+}
+
+.detailedInfo .info{
+  margin:20px;
+  float:left !important;
+}
